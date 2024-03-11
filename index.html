@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,11 @@
     <title>Vague Finder Demo</title>
   </head>
   <body>
+    <div id="notification">
+      <div id="popup">
+        <p id="popup-text"></p>
+      </div>
+    </div>
     <div id="app">
       <div id="container">
         <div id="input-container">
@@ -21,8 +26,9 @@
               <button id="searchButton">Search</button>
             </div>
             <div class="cacheButtonContainer">
-                <button id="cacheButton">Cache</button>
-                <button id="cacheSearchButton">Fast Search</div>
+              <button id="cacheButton">Cache</button>
+              <button id="cacheSearchButton">Fast Search</button>
+            </div>
           </div>
         </div>
         <div id="list-container"><ul id="list"></ul></div>
