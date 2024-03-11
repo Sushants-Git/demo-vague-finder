@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^5.1.0"
+  },
+  "dependencies": {
+    "vague-finder": "^1.0.4"
   }
 }
