@@ -137,7 +137,7 @@ function putInOrder(inputText) {
 
 async function showModelLoadingScreen(isCaching) {
   let listEl = document.getElementById("list");
-  listEl.innerHTML = `<span id="empty">Loading Model...</span>`;
+  listEl.innerHTML = `<span id="empty">Loading Model (Only happens once)...</span>`;
   if (isCaching) {
     listEl.innerHTML = `<span id="empty">Caching...</span>`;
     return;
